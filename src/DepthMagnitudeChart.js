@@ -27,7 +27,7 @@ const InfoTooltip = (props) => {
 const DepthMagnitudeChart = () => {
 
       const dataset = data.features;
-      let chartData = dataset.map(function(item) {
+      let chartData = dataset.map(item => {
         return {
           "depth" : 0 - item.geometry.coordinates[2],
           "time": moment(item.properties.time).format("MMM Do HH:mm"),

@@ -32,7 +32,25 @@ h1, h2 {
 
 #root {
   margin: 10px auto;
-  width: 75%;
+}
+
+.map-container {
+  margin: 10px 0;
+  float: left;
+  width: 50%;
+}
+
+.map-container > div {
+  margin: 10px auto;
+}
+
+.marker-pin {
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  left: -4px;
+  top: -4px;
+  opacity: 0.8;
 }
 
 #root > div {
@@ -40,7 +58,15 @@ h1, h2 {
 }
 
 .table-container {
-  margin: 30px 0 75px 0;
+  margin: 10px auto;
+  width: 50%;
+  float: left;
+  font-size: 14px;
+}
+
+.depth-mag-chart {
+  clear: both;
+  padding-top: 40px;
 }
 
 .table-container > div,
