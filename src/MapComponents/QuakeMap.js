@@ -1,5 +1,5 @@
-import React, {Component} from 'react';
-import data from './dataset/data061116.json';
+import React, { Component } from 'react';
+import data from '../dataset/data061116.json';
 import GoogleMap from 'google-map-react';
 import MapMarkers from './MapMarkers';
 

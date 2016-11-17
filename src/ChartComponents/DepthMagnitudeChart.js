@@ -1,5 +1,5 @@
 import React from 'react';
-import data from './dataset/data061116.json';
+import data from '../dataset/data061116.json';
 import { ComposedChart, Bar, Area, XAxis, YAxis, Tooltip, ReferenceLine, Legend } from 'recharts';
 var moment = require('moment');
 

@@ -1,7 +1,7 @@
 import React from 'react';
-import QuakeTable from './QuakeTable';
-import DepthMagnitudeChart from './DepthMagnitudeChart';
-import QuakeMap from './QuakeMap';
+import QuakeTable from './TableComponents/QuakeTable';
+import DepthMagnitudeChart from './ChartComponents/DepthMagnitudeChart';
+import QuakeMap from './MapComponents/QuakeMap';
 
 const App = () => {
   return (

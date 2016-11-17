@@ -1,5 +1,5 @@
 import React from 'react';
-import marker_point from './marker_point.png';
+import marker_point from '../assets/marker_point.png';
 
 const MapMarkers = (props) => {
 

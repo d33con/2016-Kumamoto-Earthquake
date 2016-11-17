@@ -50,7 +50,7 @@ h1, h2 {
   height: 12px;
   left: -4px;
   top: -4px;
-  opacity: 0.8;
+  opacity: 0.75;
 }
 
 #root > div {
@@ -78,7 +78,7 @@ h1, h2 {
 }
 
 .total {
-  font-size: 20px;
+  font-size: 24px;
   text-align: center;
   margin: 0 !important;
 }
