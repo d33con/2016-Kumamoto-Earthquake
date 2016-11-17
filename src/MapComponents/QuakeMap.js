@@ -18,7 +18,10 @@ class QuakeMap extends Component {
       <div className="map-container">
         <GoogleMap style={{height: 650, width: 800, position: "relative"}}
           defaultCenter={this.props.center}
-          defaultZoom={this.props.zoom}>
+          defaultZoom={this.props.zoom}
+          bootstrapURLKeys={{
+            key: "AIzaSyAjoRWgrbXsCzxtTNj8gwoDjN2vudg3pZI"
+          }}>
           {dataset.map(item => <MapMarkers
                                   key={String(item.properties.time)}
                                   lat={item.geometry.coordinates[1]}
