@@ -6,6 +6,10 @@ On 14th April 2016 the city of Kumamoto suffered a magnitude 6.2 earthquake. Jus
 
 This page shows details and locations of all earthquakes of magnitude 4 or larger on Kyushu island since the initial quake in April.
 
-This page was built with [React](https://github.com/facebook/react), [Fixed Data Table](https://github.com/facebook/fixed-data-table), [Recharts](https://github.com/recharts/recharts) and [React-Google-Map](https://github.com/istarkov/google-map-react) using data from the [USGS](http://www.usgs.gov/).
+![Screenshot one](http://res.cloudinary.com/dyqqt0ksz/image/upload/v1503889724/earthquake_fcdgyo.png)
+
+![Screenshot two](http://res.cloudinary.com/dyqqt0ksz/image/upload/v1503889947/earthquake2_kmewv8.png)
+
+Built with [React](https://github.com/facebook/react), [Fixed Data Table](https://github.com/facebook/fixed-data-table), [Recharts](https://github.com/recharts/recharts) and [React-Google-Map](https://github.com/istarkov/google-map-react) using data from the [USGS](http://www.usgs.gov/).
 
 Correct as of 7th November 2016
